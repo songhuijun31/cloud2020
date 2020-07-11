@@ -9,8 +9,9 @@ import packge.MySelfRule;
 @EnableEurekaClient
 @SpringBootApplication
 @RibbonClient(name = "PAYMENT-SERVICE",configuration = MySelfRule.class)
-public class OrderApplication {
+public class OrderApplication80 {
+
     public static void main(String[] args) {
-        SpringApplication.run(OrderApplication.class,args);
+        SpringApplication.run(OrderApplication80.class,args);
     }
 }
