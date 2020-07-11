@@ -16,6 +16,7 @@
     <module>eureka7003</module>
       <module>payment8002</module>
       <module>payment8004</module>
+    <module>order-zk-80</module>
   </modules>
   <packaging>pom</packaging>
 
