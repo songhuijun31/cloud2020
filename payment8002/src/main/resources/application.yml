@@ -21,7 +21,7 @@ eureka:
       #      defaultZone: http://localhost:7001/eureka
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
   instance:
-    instance-id: payment-8002  #这个是修改Eureka界面的Status名称
+    instance-id: payment-800  #这个是修改Eureka界面的Status名称
     prefer-ip-address: true    #这个是设置鼠标放在status上的时候，出现的提示，设置ip地址显示
     lease-renewal-interval-in-seconds: 30  #eureka向服务端发送心跳的时间间隔默认为30秒
     lease-expiration-duration-in-seconds: 90   #eureka最后收到心跳之后等待时间默认为90秒
